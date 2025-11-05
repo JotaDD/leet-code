@@ -6,7 +6,6 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
 
   if (sortedArr.length % 2 > 0) {
     const median = (sortedArr.length + 1) / 2;
-    console.log("Impar e median", median);
     return sortedArr[median - 1];
   }
 
